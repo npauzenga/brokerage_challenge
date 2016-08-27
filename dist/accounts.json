@@ -1,0 +1,25 @@
+[{
+  "brokerageName": "Fidelity",
+  "account": "XXXX1423",
+  "balance": 12000.50
+},
+{
+  "brokerageName": "Fidelity",
+  "account": "XXXX5678",
+  "balance": 2350.42
+},
+{
+  "brokerageName":"Etrade",
+  "account": "XXXX1111",
+  "balance": 11350.11
+},
+{
+  "brokerageName":"Etrade",
+  "account": "XXXX2899",
+  "balance": 1212.23
+},
+{
+  "brokerageName": "Scottrade",
+  "account": "XXXX2222",
+  "balance": 230012.23
+}]
