@@ -111,11 +111,14 @@ function calculateTotals(accounts) {
 function printAccountData(accounts, totals) {
   const accountTotal = Math.round(totals.total * 100) / 100;
 
-  console.log("Account Total : " + accountTotal);
+  // The grand total
+  console.log("Account Total : " + accountTotal.toFixed(2));
   for (let brokerage in accounts) {
-    console.log(brokerage + " : " + totals[brokerage]);
+    // The total for each brokerage
+    console.log(brokerage + " : " + totals[brokerage].toFixed(2));
     for (let accountNumber in accounts[brokerage]) {
-      console.log(accountNumber + " : " + accounts[brokerage][accountNumber]);
+      // The total for each account in each brokerage
+      console.log(accountNumber + " : " + accounts[brokerage][accountNumber].toFixed(2));
     }
   }
 }
